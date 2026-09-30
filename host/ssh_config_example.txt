@@ -1,0 +1,15 @@
+Host vm-deploy
+    HostName 127.0.0.4
+    Port 2222
+    User dim
+    IdentityFile ~/.ssh/stand_key
+    IdentitiesOnly yes
+    StrictHostKeyChecking accept-new
+
+Host vm-app
+    HostName 127.0.0.5
+    Port 2222
+    User dim
+    IdentityFile ~/.ssh/stand_key
+    IdentitiesOnly yes
+    StrictHostKeyChecking accept-new
